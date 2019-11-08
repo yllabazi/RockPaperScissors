@@ -1,0 +1,45 @@
+body{
+    color: #f9ed69;
+    background-color: #6a2c70;
+}
+
+h1{
+    color: #f9ed69;
+    text-align: center;
+}
+h3{
+    margin: 10px 20px;
+}
+div{
+    background-color: #b83b5e;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+}
+div > p {
+    margin: 10px 20px;
+}
+#newGame{
+    margin-left: 20px;
+}
+#announcement{
+    text-decoration: underline;
+}
+button{
+    background-color: #f08a5d;
+    border-color: #f08a5d;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+button:hover:enabled{
+    background-color: #f9ed69;
+    border-color: #f9ed69;
+}
+button:focus{
+    outline: none;
+}
+#btns > button {
+    margin-top: 41px;
+}
